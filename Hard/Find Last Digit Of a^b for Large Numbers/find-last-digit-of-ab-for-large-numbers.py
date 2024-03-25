@@ -3,7 +3,7 @@
 class Solution:
     def getLastDigit(self, a, b):
           # Convert 'a' to an integer and take the modulus by 10 to obtain the last digit.
-        a = int(a) % 10  
+        a = int(a)
         b = int(b)
         
         # Use exponentiation to calculate (a^b) mod 10
